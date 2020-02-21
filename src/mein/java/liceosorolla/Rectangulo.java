@@ -20,4 +20,9 @@ public class Rectangulo {
 	public void setLado2(int lado2) {
 		this.lado2 = lado2;
 	}
+	public boolean esCuadrado() {
+		boolean bool=false;
+		bool=lado1==lado2;
+		return bool;
+	}
 }
