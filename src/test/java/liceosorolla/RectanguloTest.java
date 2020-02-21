@@ -31,5 +31,9 @@ public class RectanguloTest {
 	public void comprobarHipotenusa() {
 		assertEquals(50,rectangulo.hipotenusa());
 	}
+	@Test
+	public void comprobarRadioCircunferencia() {
+		assertEquals(2,rectangulo.radioCircunferencia());
+	}
 	
 }
