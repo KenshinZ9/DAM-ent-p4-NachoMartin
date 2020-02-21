@@ -33,4 +33,8 @@ public class Rectangulo {
 		int area=lado1*lado2;
 		return area;
 	}
+	public int hipotenusa() {
+		int hipo=(int) (Math.pow(lado1, 2)+Math.pow(lado2, 2));
+		return hipo;
+	}
 }

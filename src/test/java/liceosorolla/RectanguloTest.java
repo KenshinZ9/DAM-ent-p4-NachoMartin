@@ -27,5 +27,9 @@ public class RectanguloTest {
 	public void comprobarArea() {
 		assertEquals(25,rectangulo.area());
 	}
+	@Test
+	public void comprobarHipotenusa() {
+		assertEquals(50,rectangulo.hipotenusa());
+	}
 	
 }
