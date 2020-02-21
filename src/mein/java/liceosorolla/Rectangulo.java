@@ -37,4 +37,12 @@ public class Rectangulo {
 		int hipo=(int) (Math.pow(lado1, 2)+Math.pow(lado2, 2));
 		return hipo;
 	}
+	public int radioCircunferencia() {
+		int ladoMenor=lado1;
+		if(lado2<lado1) {
+			ladoMenor=lado2;
+		}
+		int radio=ladoMenor/2;
+		return radio;
+	}
 }
