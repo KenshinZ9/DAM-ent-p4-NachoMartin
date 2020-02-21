@@ -25,4 +25,8 @@ public class Rectangulo {
 		bool=lado1==lado2;
 		return bool;
 	}
+	public int perimetro() {
+		int perimetro=lado1*2+lado2*2;
+		return perimetro;
+	}
 }
