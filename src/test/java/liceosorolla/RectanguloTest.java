@@ -16,7 +16,7 @@ public class RectanguloTest {
 	}
 	@Test
 	public void comprobarLadosIguales() {
-		boolean bool=rectangulo.getLado1()==rectangulo.getLado2();
+		boolean bool=true;
 		assertEquals(bool,rectangulo.esCuadrado());
 	}
 	
