@@ -23,5 +23,8 @@ public class UsuarioTest {
 	public void comprobarApellidos() {
 		assertEquals("Martin", usuario.getApellidos());
 	}
-	
+	@Test
+	public void comprobarNombreCompleto() {
+		assertEquals("Nacho Martin ", usuario.getNombre()+" "+usuario.getApellidos());
+	}
 }
