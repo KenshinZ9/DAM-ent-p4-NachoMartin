@@ -34,7 +34,7 @@ public class Rectangulo {
 		return area;
 	}
 	public int hipotenusa() {
-		int hipo=(int) (Math.pow(lado1, 2)+Math.pow(lado2, 2));
+		int hipo=(int)Math.sqrt((Math.pow(lado1, 2)+Math.pow(lado2, 2)));
 		return hipo;
 	}
 }

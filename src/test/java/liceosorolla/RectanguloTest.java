@@ -29,7 +29,7 @@ public class RectanguloTest {
 	}
 	@Test
 	public void comprobarHipotenusa() {
-		assertEquals(50,rectangulo.hipotenusa());
+		assertEquals(7,rectangulo.hipotenusa());
 	}
 	
 }
