@@ -19,5 +19,9 @@ public class UsuarioTest {
 	public void comprobarNombre() {
 		assertEquals("Nacho", usuario.getNombre());
 	}
+	@Test
+	public void comprobarApellidos() {
+		assertEquals("Martin", usuario.getApellidos());
+	}
 	
 }
