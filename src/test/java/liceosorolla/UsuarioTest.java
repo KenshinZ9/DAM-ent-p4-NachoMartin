@@ -25,6 +25,15 @@ public class UsuarioTest {
 	}
 	@Test
 	public void comprobarNombreCompleto() {
-		assertEquals("Nacho Martin ", usuario.getNombre()+" "+usuario.getApellidos());
+		assertEquals("Nacho Martin ",usuario.getNombre()+" "+usuario.getApellidos());
+	}
+	
+	@Test
+	public void comprobarMayus() {
+		assertEquals("NACHO MARTIN",usuario.mayus());
+	}
+	@Test
+	public void comprobarMinus() {
+		assertEquals("nacho martin",usuario.minus());
 	}
 }

@@ -49,4 +49,15 @@ public class Usuario {
 		this.id = id;
 	}
 	
+	public String mayus() {
+		String mayus="";
+		mayus=this.nombre.toUpperCase()+" "+this.apellidos.toUpperCase(); 
+		return mayus;
+	}
+	
+	public String minus() {
+		String minus="";
+		minus=this.nombre.toLowerCase()+" "+this.apellidos.toLowerCase(); 
+		return minus;
+	}
 }
