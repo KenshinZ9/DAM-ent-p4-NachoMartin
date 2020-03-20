@@ -8,23 +8,23 @@ public class AnimalTest {
 	private Animal animal;
 	@Before
 	public void Before() {
-		animal = new Animal ("Rana","Cefalopodo", 100 , 19,"rosa");
+		animal = new Animal ("Rana","anfivio", 50 , 25,"verde");
 	}
 	@Test
 	public void comprobarColor() {
-		assertEquals("rosa", animal.getColorPelo());
+		assertEquals("verde", animal.getColorPelo());
 }
 	@Test
 	public void comprobarEspecie() {
-		assertEquals("Cefalopodo", animal.getEspecie());
+		assertEquals("anfivio", animal.getEspecie());
 }
 	@Test
 	public void comprobarEdad() {
-		assertEquals(19, animal.getEdad());
+		assertEquals(25, animal.getEdad());
 }
 	@Test
 	public void comprobarPeso() {
-		assertEquals(100, animal.getPeso());
+		assertEquals(50, animal.getPeso());
 	}
 	@Test
 	public void comprobarAnimal() {
